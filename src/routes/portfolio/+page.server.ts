@@ -15,7 +15,7 @@ export async function load() {
         return { folder, images };
       }
     })
-    .filter(Boolean); // Filters out undefined values if any non-folder files are present
+    .filter(Boolean);
 
   return { projects };
 }
