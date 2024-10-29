@@ -36,7 +36,7 @@
 					</a>
 				</div>
 				<div
-					class="rounded-full bg-primary-400-500-token bg-primary-hover-token w-10 h-10 flex justify-center items-center"
+					class="rounded-full bg-primary-400-500-token bg-primary-hover-token w-10 h-10 flex justify-center items-center p-1"
 				>
 					<a href="https://www.youtube.com/@Crucifixation" target="_blank">
 						<img src="/youtube.png" size="md" alt="youtube icon" />
