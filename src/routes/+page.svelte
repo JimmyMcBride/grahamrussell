@@ -39,7 +39,7 @@
 					class="rounded-full bg-primary-400-500-token bg-primary-hover-token w-10 h-10 flex justify-center items-center"
 				>
 					<a href="https://www.youtube.com/@Crucifixation" target="_blank">
-						<img src="/youtube .png" size="md" alt="youtube icon" />
+						<img src="/youtube.png" size="md" alt="youtube icon" />
 					</a>
 				</div>
 			</div>
