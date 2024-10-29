@@ -3,13 +3,13 @@
 	import {
 		AppBar,
 		AppShell,
-		Avatar,
-		LightSwitch,
+		// Avatar,
+		// LightSwitch,
 		RadioGroup,
 		RadioItem,
-		Toast,
+		// Toast,
 		autoModeWatcher,
-		initializeStores
+		// initializeStores
 	} from '@skeletonlabs/skeleton';
 	import PageTransition from "$lib/components/transition.svelte"
 import { page } from "$app/stores"

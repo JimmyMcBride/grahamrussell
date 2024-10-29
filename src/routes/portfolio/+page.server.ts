@@ -15,12 +15,12 @@ export async function load() {
       const folderPath = path.join(baseDir, folder);
       if (statSync(folderPath).isDirectory()) {
         const pathSections = folderPath.replace('static/', '').split('-');
-        console.log(`path sections: ${pathSections[0]}, ${pathSections[1]}`);
         const images = readdirSync(folderPath).filter((file) =>
           /\.(jpg|jpeg|png|gif)$/i.test(file)
         );
-        const { tools, description } = getDescription(pathSections[1]);
-        return { folder, title: pathSections[1], images, tools, description };
+        const name = pathSections[1];
+        const { tools, description } = getDescription(name);
+        return { folder, title: name, images, tools, description };
       }
     })
     .filter(Boolean);
